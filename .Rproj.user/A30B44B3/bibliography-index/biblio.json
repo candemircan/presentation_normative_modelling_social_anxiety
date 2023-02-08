@@ -1,0 +1,231 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1038/s41596-022-00696-5",
+            "URL": "http://dx.doi.org/10.1038/s41596-022-00696-5",
+            "author": [
+                {
+                    "family": "Rutherford",
+                    "given": "Saige"
+                },
+                {
+                    "family": "Kia",
+                    "given": "Seyed Mostafa"
+                },
+                {
+                    "family": "Wolfers",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Fraza",
+                    "given": "Charlotte"
+                },
+                {
+                    "family": "Zabihi",
+                    "given": "Mariam"
+                },
+                {
+                    "family": "Dinga",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Berthet",
+                    "given": "Pierre"
+                },
+                {
+                    "family": "Worker",
+                    "given": "Amanda"
+                },
+                {
+                    "family": "Verdi",
+                    "given": "Serena"
+                },
+                {
+                    "family": "Ruhe",
+                    "given": "Henricus G."
+                },
+                {
+                    "family": "Beckmann",
+                    "given": "Christian F."
+                },
+                {
+                    "family": "Marquand",
+                    "given": "Andre F."
+                }
+            ],
+            "container-title": "Nature Protocols",
+            "id": "rutherford2022",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "1711-1734",
+            "title": "The normative modeling framework for computational psychiatry",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "URL": "http://dx.doi.org/10.1101/2022.11.14.516460",
+            "author": [
+                {
+                    "family": "Rutherford",
+                    "given": "Saige"
+                },
+                {
+                    "family": "Barkema",
+                    "given": "Pieter"
+                },
+                {
+                    "family": "Tso",
+                    "given": "Ivy F."
+                },
+                {
+                    "family": "Sripada",
+                    "given": "Chandra"
+                },
+                {
+                    "family": "Beckmann",
+                    "given": "Christian F."
+                },
+                {
+                    "family": "Ruhe",
+                    "given": "Henricus G."
+                },
+                {
+                    "family": "Marquand",
+                    "given": "Andre F."
+                }
+            ],
+            "id": "rutherford2022a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        11,
+                        15
+                    ]
+                ]
+            },
+            "title": "Evidence for embracing normative modeling",
+            "type": ""
+        },
+        {
+            "DOI": "10.1001/jamapsychiatry.2018.2467",
+            "URL": "http://dx.doi.org/10.1001/jamapsychiatry.2018.2467",
+            "author": [
+                {
+                    "family": "Wolfers",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Doan",
+                    "given": "Nhat Trung"
+                },
+                {
+                    "family": "Kaufmann",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "Alnæs",
+                    "given": "Dag"
+                },
+                {
+                    "family": "Moberget",
+                    "given": "Torgeir"
+                },
+                {
+                    "family": "Agartz",
+                    "given": "Ingrid"
+                },
+                {
+                    "family": "Buitelaar",
+                    "given": "Jan K."
+                },
+                {
+                    "family": "Ueland",
+                    "given": "Torill"
+                },
+                {
+                    "family": "Melle",
+                    "given": "Ingrid"
+                },
+                {
+                    "family": "Franke",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Andreassen",
+                    "given": "Ole A."
+                },
+                {
+                    "family": "Beckmann",
+                    "given": "Christian F."
+                },
+                {
+                    "family": "Westlye",
+                    "given": "Lars T."
+                },
+                {
+                    "family": "Marquand",
+                    "given": "Andre F."
+                }
+            ],
+            "container-title": "JAMA Psychiatry",
+            "id": "wolfers2018",
+            "issue": "11",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        11,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "1146",
+            "title": "Mapping the Heterogeneous Phenotype of Schizophrenia and Bipolar Disorder Using Normative Models",
+            "type": "article-journal",
+            "volume": "75"
+        },
+        {
+            "DOI": "10.12688/f1000research.21214.1",
+            "URL": "http://dx.doi.org/10.12688/f1000research.21214.1",
+            "author": [
+                {
+                    "family": "Bas-Hoogendam",
+                    "given": "Janna Marie"
+                },
+                {
+                    "family": "Westenberg",
+                    "given": "P. Michiel"
+                }
+            ],
+            "container-title": "F1000Research",
+            "id": "bas-hoogendam2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        4,
+                        2
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "230",
+            "title": "Imaging the socially-anxious brain: recent advances and future prospects",
+            "title-short": "Imaging the socially-anxious brain",
+            "type": "article-journal",
+            "volume": "9"
+        }
+    ],
+    "project_biblios": []
+}

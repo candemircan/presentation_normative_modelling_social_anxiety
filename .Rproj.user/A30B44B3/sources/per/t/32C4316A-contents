@@ -1,0 +1,257 @@
+---
+title: "Mapping the Heterogeneous Phenotype of Social Anxiety Disorder"
+author: "Can Demircan"
+subtitle: "A Normative Modelling Approach"
+date: 2023-02-09
+date-format: long
+csl: nature.csl
+format:
+  revealjs:
+    theme: [_extensions/metropolis-theme/metropolis.scss]
+    toc: false
+    chalkboard: true
+    menu: true
+    slide-number: true
+    show-slide-number: all
+revealjs-plugins:
+    - pointer
+bibliography: references.bib
+---
+
+## Group Level Differences in Psychiatry
+
+An example case with schizophrenia [@wolfers2018; @rutherford2022; @rutherford2022a]
+
+![](imgs/schizophrenia_group_both_1.png){fig-align="center"}
+
+## Group Level Differences in Psychiatry
+
+An example case with schizophrenia [@wolfers2018; @rutherford2022; @rutherford2022a]
+
+![](imgs/schizophrenia_group_both_2.png){fig-align="center"}
+
+## Estimating Norms - Height & Weight
+
+![](imgs/norm_height.png){fig-align="center"}
+
+## Estimating Norms - Structural Brain Data [@rutherford2022]
+
+::: {layout="[[-1], [1], [-1]]"}
+![](imgs/norm_brain.png){fig-align="center"}
+:::
+
+## Estimating Norms - Structural Brain Data [@rutherford2022]
+
+![](imgs/math.png){fig-align="center"}
+
+## Individual Differences in Psychiatry
+
+![Normative models tell a more nuanced and informative story than what group level differences tell us.](imgs/schizophrenia_individual_both_1.png){fig-align="center"}
+
+::: notes
+N = 213
+:::
+
+## Individual Differences in Psychiatry
+
+![Normative models tell a more nuanced and informative story than what group level differences tell us.](imgs/schizophrenia_individual_both_2.png)
+
+::: notes
+N = 213
+:::
+
+## Social Anxiety Disorder (SAD)
+
+There are multiple studies showing structural and functional brain differences in SAD compared to control groups at a macro-scale[@bas-hoogendam2020].
+
+. . .
+
+::: callout-tip
+## Our Project
+
+Do group level differences sufficiently describe the disorder, or do we observe heterogeneous differences in SAD as well?
+:::
+
+::: notes
+Functional Fear Network: amygdala, insula, PFC, ACC
+
+Structural: increased striatal volume
+
+Our Data: left and medial prefrontal cortex: low ELA -\> high activity for both; high ELA -\> high activity for control only
+:::
+
+## Workflow
+
+![](imgs/workflow_1.svg){fig-align="center"}
+
+## Workflow
+
+![](imgs/workflow_2.svg){fig-align="center"}
+
+## Workflow
+
+![](imgs/workflow_3.svg){fig-align="center"}
+
+## Model Evaluation
+
+![](imgs/Rho.png){fig-align="center"}
+
+## Group Level Differences {.scrollable}
+
+::: panel-tabset
+### Figure
+
+![](imgs/d.png){fig-align="center"}
+
+### Thickness/Volume Table
+
+|                      ROI                      | Cohen's D | Hemisphere  |
+|:---------------------------------------------:|:---------:|:-----------:|
+|             Postcentral Sulcus\*              |   0.82    |    left     |
+|      Superior Circular Sulcus of Insula       |   0.67    |    right    |
+|    Superior Temporal Gyrus (Planum Polare)    |   0.67    |    left     |
+|          Superior Precentral Sulcus           |   0.64    |    left     |
+|     Anterior Transverse Collateral Sulcus     |   0.62    |    right    |
+|      Inferior Circular Sulcus of Insula       |   0.62    |    left     |
+|                 Temporal Pole                 |    0.6    |    right    |
+|               The Angular Gyrus               |    0.6    |    right    |
+|        Lateral Superior Temporal Gyrus        |   0.59    |    right    |
+|     Posterior Part of the Lateral Sulcus      |   0.58    |    left     |
+|    Superior Temporal Gyrus (Planum Polare)    |   0.58    |    right    |
+|     Posterior Part of the Lateral Sulcus      |   0.57    |    right    |
+|               Cingulate Sulcus                |   0.57    |    left     |
+|       Opercular Inferior Frontal Gyrus        |   0.56    |    right    |
+|    Horizontal Ramus of the Lateral Sulcus     |   0.56    |    right    |
+|      Inferior Circular Sulcus of Insula       |   0.55    |    right    |
+|             Intraparietal Sulcus              |   0.53    |    left     |
+|        Lateral Superior Temporal Gyrus        |   0.53    |    left     |
+|       Middle Anterior Cingulate Cortex        |   0.51    |    right    |
+|           Superior Occipital Gyrus            |    0.5    |    left     |
+|      Superior Circular Sulcus of Insula       |   0.48    |    left     |
+|            Superior Frontal Sulcus            |   0.48    |    right    |
+|            Superior Frontal Gyrus             |   0.47    |    left     |
+|           Sulcus Intermedius Primus           |   0.47    |    left     |
+|            Superior Frontal Gyrus             |   0.46    |    right    |
+|             Intraparietal Sulcus              |   0.46    |    right    |
+|            Anterior Lateral Sulcus            |   0.46    |    right    |
+|              Subparietal Sulcus               |   0.46    |    right    |
+|             Middle Frontal Sulcus             |   0.46    |    right    |
+|          Transverse Temporal Sulcus           |   0.45    |    right    |
+|               Planum Temporale                |   0.44    |    left     |
+|                 The Precuneus                 |   0.44    |    left     |
+|          The Middle Occipital Gyrus           |   0.44    |    left     |
+|              The Fusiform Gyrus               |   0.43    |    right    |
+|           Anterior Circular Insula            |   0.43    |    right    |
+|       Posterior Dorsal Cingulate Cortex       |   0.43    |    left     |
+|                Central Sulcus                 |   0.43    |    right    |
+|    Horizontal Ramus of the Lateral Sulcus     |   0.42    |    left     |
+|                 Orbital Gyrus                 |   0.42    |    left     |
+|            Primary Auditory Cortex            |   0.41    |    left     |
+| triangular part of the inferior frontal gyrus |    0.4    |    left     |
+|                 Temporal Pole                 |    0.4    |    left     |
+|                  Left Vessel                  |   -0.44   | subcortical |
+
+### Deviation Table
+
+|                   ROI                   | Cohen's D | Hemisphere  |
+|:---------------------------------------:|:---------:|:-----------:|
+|           Postcentral Sulcus            |   0.59    |    left     |
+|              Temporal Pole              |   0.59    |    right    |
+| Superior Temporal Gyrus (Planum Polare) |   0.57    |    left     |
+|  Anterior Transverse Collateral Sulcus  |    0.5    |    right    |
+| Superior Temporal Gyrus (Planum Polare) |   0.49    |    right    |
+|     Lateral Superior Temporal Gyrus     |   0.49    |    right    |
+|       Superior Precentral Sulcus        |   0.46    |    left     |
+|   Inferior Circular Sulcus of Insula    |   0.46    |    left     |
+|            The Angular Gyrus            |   0.45    |    right    |
+|  Posterior Part of the Lateral Sulcus   |   0.44    |    left     |
+| Horizontal Ramus of the Lateral Sulcus  |   0.44    |    right    |
+|     Lateral Superior Temporal Gyrus     |   0.44    |    left     |
+|        Sulcus Intermedius Primus        |   0.41    |    left     |
+|        Superior Occipital Gyrus         |    0.4    |    left     |
+|               Left Vessel               |   -0.44   | subcortical |
+|   Ventral Posterior Cingulate Cortex    |   -0.44   |    left     |
+:::
+
+## Heterogeneity in Structural Differences {.scrollable}
+
+::: panel-tabset
+### Figure
+
+![](imgs/overlap.png){fig-align="center"}
+
+### SAD Table
+
+|                  ROI                   |  \%   | Hemisphere |   Sign   |
+|:--------------------------------------:|:-----:|:----------:|:--------:|
+| Horizontal Ramus of the Lateral Sulcus | 22.45 |   right    | positive |
+| Horizontal Ramus of the Lateral Sulcus | 22.45 |   right    | positive |
+|             Insular Gyrus              | 14.29 |   right    | positive |
+|   Ventral Posterior Cingulate Cortex   | 14.29 |    left    | negative |
+|             Insular Gyrus              | 14.29 |   right    | positive |
+|             The Precuneus              | 12.24 |   right    | negative |
+|        Anterior Lateral Sulcus         | 12.24 |   right    | positive |
+|        Anterior Lateral Sulcus         | 12.24 |   right    | positive |
+|  Posterior Part of the Lateral Sulcus  | 10.2  |   right    | positive |
+|       The Middle Occipital Gyrus       | 10.2  |   right    | positive |
+|  Posterior Part of the Lateral Sulcus  | 10.2  |   right    | positive |
+|       The Middle Occipital Gyrus       | 10.2  |   right    | positive |
+|      The Inferior Frontal Sulcus       | 8.16  |   right    | positive |
+|        Primary Auditory Cortex         | 8.16  |   right    | positive |
+|      The Inferior Frontal Sulcus       | 8.16  |   right    | positive |
+|          Middle Frontal Gyrus          | 8.16  |   right    | positive |
+|        Parieto-Occipital Sulcus        | 8.16  |   right    | positive |
+|        Parieto-Occipital Sulcus        | 8.16  |   right    | negative |
+|        Primary Auditory Cortex         | 8.16  |   right    | positive |
+|          Middle Frontal Gyrus          | 8.16  |   right    | positive |
+|        Parieto-Occipital Sulcus        | 8.16  |    left    | negative |
+|        Parieto-Occipital Sulcus        | 8.16  |   right    | positive |
+
+### Control Table
+
+|                 ROI                  |  \%   | Hemisphere |   Sign   |
+|:------------------------------------:|:-----:|:----------:|:--------:|
+|            Temporal Pole             | 18.37 |    left    | negative |
+|        Middle Frontal Sulcus         | 10.2  |   right    | negative |
+| Posterior Part of the Lateral Sulcus | 10.2  |    left    | negative |
+|       Superior Occipital Gyrus       | 8.16  |   right    | negative |
+|   Lateral Superior Temporal Gyrus    | 8.16  |   right    | negative |
+|            Temporal Pole             | 8.16  |   right    | negative |
+|       Inferior Temporal Gyrus        | 8.16  |    left    | negative |
+|           Calcarine Sulcus           | 8.16  |    left    | negative |
+|       Parieto-Occipital Sulcus       | 8.16  |    left    | negative |
+|            Insular Gyrus             | 8.16  |   right    | positive |
+|       Primary Auditory Cortex        | 8.16  |   right    | positive |
+|            Insular Gyrus             | 8.16  |   right    | positive |
+|       Primary Auditory Cortex        | 8.16  |   right    | positive |
+:::
+
+## Predicting Social Anxiety
+
+::: {layout="[[-1], [1], [-1]]"}
+![](imgs/auc_full.png){fig-align="center"}
+:::
+
+## Takeaways
+
+-   We observe heterogeneous deviations of brain structure in SAD, for which case-control studies cannot account for.
+-   Such deviations do not benefit classification methods only using brain data.
+
+. . .
+
+::: {.callout-note}
+## Caveats & Next Step
+
+:::{.incremental}
+- Due to the small sample size, the results should be interpreted carefully.
+- The next step is to inspect the quality of T1 images, and incorporate image quality into the analysis.
+:::
+:::
+
+# Thank you for listening!
+
+
+## References
+
+::: {#refs}
+:::
