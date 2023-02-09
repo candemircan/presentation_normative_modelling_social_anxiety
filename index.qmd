@@ -101,7 +101,7 @@ Our Data: left and medial prefrontal cortex: low ELA -\> high activity for both;
 ::: panel-tabset
 ### Figure
 
-![](imgs/d.png){fig-align="center"}
+![](imgs/d.png){fig-align="center" width="1500"}
 
 ### Thickness/Volume Table
 
@@ -173,9 +173,24 @@ Our Data: left and medial prefrontal cortex: low ELA -\> high activity for both;
 |   Ventral Posterior Cingulate Cortex    |   -0.44   |    left     |
 :::
 
+::: notes
+Postcentral Sulcus: Damasio's homeostatic reps. Studies show increased activity in SAD (compensate for structure?)
+
+lateral sulcus??
+
+m and l PFC: [@blair2011]
+
+Insula
+
+ACC
+
+Angular gyrus: In generalised anxiety, shows decreased FC with frontal gyrus [@cui2016]
+:::
+
 ## Heterogeneity in Structural Differences {.scrollable}
 
-::: panel-tabset
+::: panel-tabset 
+
 ### Figure
 
 ![](imgs/overlap.png){fig-align="center"}
@@ -226,7 +241,11 @@ Our Data: left and medial prefrontal cortex: low ELA -\> high activity for both;
 |       Primary Auditory Cortex        | 8.16  |   right    | positive |
 :::
 
-## Predicting Social Anxiety
+::: notes
+precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wang2018]
+:::
+
+## Predicting SAD With Linear Classifiers
 
 ::: {layout="[[-1], [1], [-1]]"}
 ![](imgs/auc_full.png){fig-align="center"}
@@ -239,17 +258,16 @@ Our Data: left and medial prefrontal cortex: low ELA -\> high activity for both;
 
 . . .
 
-::: {.callout-note}
+::: callout-note
 ## Caveats & Next Step
 
-:::{.incremental}
-- Due to the small sample size, the results should be interpreted carefully.
-- The next step is to inspect the quality of T1 images, and incorporate image quality into the analysis.
+::: incremental
+-   Due to the small sample size, the results should be interpreted carefully.
+-   The next step is to inspect the quality of T1 images, and incorporate image quality into the analysis.
 :::
 :::
 
 # Thank you for listening!
-
 
 ## References
 
