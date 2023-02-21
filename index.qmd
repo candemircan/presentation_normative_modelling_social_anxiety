@@ -246,6 +246,10 @@ precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wan
 # Predicting SAD With Linear Classifiers
 
 
+![](imgs/auc_simple.png){fig-align="center"}
+
+## Predicting SAD With Linear Classifiers
+
 ![](imgs/auc_full.png){fig-align="center"}
 
 
