@@ -24,8 +24,8 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="0.13748183"
-     inkscape:cx="3571.381"
-     inkscape:cy="1327.4481"
+     inkscape:cx="1447.464"
+     inkscape:cy="1836.6063"
      inkscape:window-width="1584"
      inkscape:window-height="852"
      inkscape:window-x="8"
@@ -360,9 +360,9 @@
          id="tspan26840-7-6-9">Pretrained Normative Model on</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:31.75px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="302.67731"
+         x="298.72406"
          y="573.81281"
-         id="tspan206935-2">T1-Weighted  images (N=29418) </tspan></text>
+         id="tspan206935-2">T1-Weighted  images (N~57000)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:31.75px;line-height:1.25;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';stroke-width:0.264583"

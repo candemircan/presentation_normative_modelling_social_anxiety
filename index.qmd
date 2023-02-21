@@ -254,7 +254,7 @@ precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wan
 ::: incremental
 -   We observe heterogeneous deviations of brain structure in SAD, for which case-control studies cannot account for.
 -   The insula and the ventrolateral prefrontal cortex have the highest overlap in extreme deviation, but this is still limited to $23\%$ at maximum.
--   Deviation scores do not benefit classification accuracy when only use structural imaging data is used.
+-   Deviation scores do not benefit classification accuracy when only structural imaging data is used.
 :::
 
 . . .
@@ -262,7 +262,7 @@ precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wan
 ::: callout-note
 ## One Important Caveat
 
-The sample size is really small, and you shout take the results with a grain of salt.
+The sample size is really small, and you should take the results with a grain of salt.
 :::
 
 
