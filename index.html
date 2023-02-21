@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.2.313">
 
   <meta name="author" content="Can Demircan">
-  <meta name="dcterms.date" content="2023-02-21">
+  <meta name="dcterms.date" content="2023-02-22">
   <title>Mapping the Heterogeneous Phenotype of Social Anxiety Disorder</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -53,8 +53,6 @@
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="index_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
@@ -361,7 +359,7 @@ Can Demircan
     </div>
 </div>
 
-  <p class="date">February 21, 2023</p>
+  <p class="date">February 22, 2023</p>
 </section>
 <section id="group-level-differences-in-psychiatry" class="title-slide slide level1 center">
 <h1>Group Level Differences in Psychiatry</h1>
@@ -392,18 +390,13 @@ Can Demircan
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="imgs/norm_brain.png"></p>
+<p><img data-src="imgs/norm_brain_gender.png"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
 </section>
-
-<section id="estimating-norms---structural-brain-data-rutherford2022-1" class="title-slide slide level1 center">
-<h1>Estimating Norms - Structural Brain Data<span class="citation" data-cites="rutherford2022"><sup><a href="#/references" role="doc-biblioref" onclick="">2</a></sup></span></h1>
-
-<img data-src="imgs/math.png" class="r-stretch quarto-figure-center"></section>
 
 <section id="individual-differences-in-psychiatry" class="title-slide slide level1 center">
 <h1>Individual Differences in Psychiatry</h1>
@@ -444,8 +437,8 @@ Can Demircan
 <section id="social-anxiety-disorder-sad" class="title-slide slide level1 center">
 <h1>Social Anxiety Disorder (SAD)</h1>
 <ul>
-<li>Most common anxiety disorder (5-12%)<span class="citation" data-cites="kessler2005"><sup><a href="#/references" role="doc-biblioref" onclick="">4</a></sup></span>.</li>
-<li>Extreme fear and anxiety of social situations in proportion to the actual threat.</li>
+<li>Most common anxiety disorder (<span class="math inline">\(5-12\%\)</span>)<span class="citation" data-cites="kessler2005"><sup><a href="#/references" role="doc-biblioref" onclick="">4</a></sup></span>.</li>
+<li>Extreme fear and anxiety of social situations that are disproportionate to the actual threat.</li>
 </ul>
 <div class="fragment">
 <p>There are multiple studies showing structural and functional brain differences in SAD compared to control groups at a macro-scale<span class="citation" data-cites="bas-hoogendam2020"><sup><a href="#/references" role="doc-biblioref" onclick="">5</a></sup></span>.</p>
@@ -1117,35 +1110,22 @@ Can Demircan
 </tbody>
 </table>
 <p>:::</p>
-</section>
-<section id="predicting-sad-with-linear-classifiers" class="slide level2">
-<h2>Predicting SAD With Linear Classifiers</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="imgs/auc_full.png"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="takeaways" class="slide level2">
-<h2>Takeaways</h2>
+</section></section>
+<section id="predicting-sad-with-linear-classifiers" class="title-slide slide level1 center">
+<h1>Predicting SAD With Linear Classifiers</h1>
+
+<img data-src="imgs/auc_full.png" class="r-stretch quarto-figure-center"></section>
+
+<section id="takeaways" class="title-slide slide level1 center">
+<h1>Takeaways</h1>
 <div>
 <ul>
 <li class="fragment">We observe heterogeneous deviations of brain structure in SAD, for which case-control studies cannot account for.</li>
-<li class="fragment">We find</li>
-<li class="fragment">Such deviations do not benefit classification methods only using brain data.</li>
+<li class="fragment">The insula and the ventrolateral prefrontal cortex have the highest overlap in extreme deviation, but this is still limited to <span class="math inline">\(23\%\)</span> at maximum.</li>
+<li class="fragment">Deviation scores do not benefit classification accuracy when only use structural imaging data is used.</li>
 </ul>
-<p>. . .</p>
+</div>
+<div class="fragment">
 <div class="callout callout-note callout-captioned callout-style-default">
 <div class="callout-body">
 <div class="callout-caption">
@@ -1160,11 +1140,12 @@ Can Demircan
 </div>
 </div>
 </div>
-</section></section>
+</section>
+
 <section id="thank-you-for-listening" class="title-slide slide level1 centered center" data-background-image="imgs/thomas.png">
 <h1>Thank you for listening!</h1>
-<p>and to Thomas Wolfers for all the great supervision ☺️</p>
-</section>
+
+<img data-src="imgs/place_holder.png" class="r-stretch quarto-figure-center"><p class="caption">and to Thomas Wolfers for all the great supervision ☺️</p></section>
 
 <section id="references" class="title-slide slide level1 smaller scrollable">
 <h1>References</h1>
@@ -1208,7 +1189,6 @@ Can Demircan
   <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="index_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="index_files/libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
   <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
@@ -1231,8 +1211,7 @@ Can Demircan
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":false},
 'pointer': {"key":"q","color":"red","pointerSize":16,"alwaysVisible":false},
 'smaller': false,
  
@@ -1404,7 +1383,7 @@ Can Demircan
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealPointer, QuartoSupport,
 
           RevealMath,
           RevealNotes,

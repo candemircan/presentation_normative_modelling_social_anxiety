@@ -3,14 +3,14 @@ title: "Mapping the Heterogeneous Phenotype of Social Anxiety Disorder"
 subtitle: "A Normative Modelling Approach"
 author: "Can Demircan"
 institute: "Supervised by Dr. Thomas Wolfers"
-date: 2023-02-21
+date: 2023-02-22
 date-format: long
 csl: nature.csl
 format:
   revealjs:
     theme: [default, basic-theme.scss]
     toc: false
-    chalkboard: true
+    chalkboard: false
     menu: false
     height: 1080
     width: 1920
@@ -41,12 +41,8 @@ An example case with schizophrenia [@wolfers2018; @rutherford2022; @rutherford20
 # Estimating Norms - Structural Brain Data [@rutherford2022]
 
 ::: {layout="[[-1], [1], [-1]]"}
-![](imgs/norm_brain.png){fig-align="center"}
+![](imgs/norm_brain_gender.png){fig-align="center"}
 :::
-
-# Estimating Norms - Structural Brain Data [@rutherford2022]
-
-![](imgs/math.png){fig-align="center"}
 
 # Individual Differences in Psychiatry
 
@@ -66,8 +62,8 @@ N = 213
 
 # Social Anxiety Disorder (SAD)
 
--   Most common anxiety disorder (5-12%)[@kessler2005].
--   Extreme fear and anxiety of social situations in proportion to the actual threat.
+-   Most common anxiety disorder ($5-12\%$)[@kessler2005].
+-   Extreme fear and anxiety of social situations that are disproportionate to the actual threat.
 
 . . .
 
@@ -247,18 +243,19 @@ precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wan
 
 :::
 
-## Predicting SAD With Linear Classifiers
+# Predicting SAD With Linear Classifiers
 
-::: {layout="[[-1], [1], [-1]]"}
+
 ![](imgs/auc_full.png){fig-align="center"}
-:::
 
-## Takeaways
+
+# Takeaways
 
 ::: incremental
 -   We observe heterogeneous deviations of brain structure in SAD, for which case-control studies cannot account for.
--   We find
--   Such deviations do not benefit classification methods only using brain data.
+-   The insula and the ventrolateral prefrontal cortex have the highest overlap in extreme deviation, but this is still limited to $23\%$ at maximum.
+-   Deviation scores do not benefit classification accuracy when only use structural imaging data is used.
+:::
 
 . . .
 
@@ -267,11 +264,11 @@ precuneus: Meta-analysis studies show increased grey volume matter for SAD [@wan
 
 The sample size is really small, and you shout take the results with a grain of salt.
 :::
-:::
+
 
 # Thank you for listening!{.centered background-image="imgs/thomas.png"}
 
-and to Thomas Wolfers for all the great supervision ☺️
+![and to Thomas Wolfers for all the great supervision ☺️](imgs/place_holder.png)
 
 # References
 
